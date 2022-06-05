@@ -4,11 +4,13 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
 h1{
     font-size: 40px;
     font-weight: normal;
     text-align: center;
 }
+
 header{
     height: 100px;
 }
@@ -129,20 +131,43 @@ section {
     width: 100%;
     max-width: 400px;
 }
-@media screen and (max-width: 780px){
+@media screen and (max-width: 1040px){
     header{
-        height: 50px;
         
+        height: 50px;
+
     }
-    h1{
-        font-size: 28px;
-        margin: 20px 0px 0px 0px;
+    .sec {
+        width: 90%;
+
     }
-    nav li a{
+    .sec p {
+        width: 80%;
+
+    }
+    .sec img {
+        width: 90%;
+    }
+   .reco p{
+       width: 90%;
+   }
+      .reco img {
+          width: 90%;
+      }
+     .cleft {
+          width: 100%;
+      }
+      .cright {
+          width: 100%;
+      }
+    nav li a {
         font-size: 12px;
         padding: 10px;
     }
-    nav li:hover a{
+    
+    
+    
+    nav li:hover a {
         padding: 5px 10px 10px 10px;
     }
     
